@@ -1,0 +1,15 @@
+// Priority
+// Anything needed before importing Bootstrap.
+@import "./modules/fonts.scss";
+@import "./modules/colors.scss";
+@import "./modules/bootstrap.scss";
+
+// Common
+@import "./modules/buttons.scss";
+@import "./modules/typography.scss";
+
+// Apps
+// Name like the Django apps with apps.$app_name.scss.
+@import "./modules/apps.core.scss";
+@import "./modules/apps.accounts.scss";
+@import "./modules/apps.jobs.scss";

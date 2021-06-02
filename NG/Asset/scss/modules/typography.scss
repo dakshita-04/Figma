@@ -1,0 +1,77 @@
+//
+// Typography
+//
+// Mainly from: https://www.figma.com/file/g1DjC6OwfZ7OPPyzB1cXDx/GJN_Design-System?node-id=4%3A14
+//
+
+a {
+  text-decoration: none !important;
+  &:hover {
+    font-style: bold;
+  }
+}
+
+.hz-headline-one {
+  font-family: $hz-header-font;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hz-headline-two {
+  font-family: $hz-header-font;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.hz-headline-three {
+  font-family: $hz-header-font;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hz-headline-four {
+  font-family: $hz-header-font;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hz-subtitle {
+  font-family: $hz-regular-font;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hz-subtitle-semibold {
+  @extend .hz-subtitle;
+  font-weight: 600;
+}
+
+.hz-body-one {
+  font-family: $hz-regular-font;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hz-body-one-bold {
+  font-family: $hz-regular-font;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hz-body-two {
+  font-family: $hz-regular-font;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hz-button-text {
+  font-family: $hz-regular-font;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.hz-caption {
+  font-family: $hz-regular-font;
+  font-size: 12px;
+  font-weight: 400;
+}

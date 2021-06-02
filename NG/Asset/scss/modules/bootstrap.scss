@@ -1,0 +1,11 @@
+//
+// Bootstrap
+//
+// WARNING: Override Bootstrap variables before @import.
+// See: See: https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults
+//
+
+$font-family-sans-serif: $hz-regular-font;
+$primary: $hz-primary-color;
+
+@import "~bootstrap/scss/bootstrap";

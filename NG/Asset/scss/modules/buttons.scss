@@ -1,0 +1,21 @@
+//
+// Buttons
+//
+
+// Standard button.
+.hz-button {
+  @extend .btn, .btn-primary, .text-uppercase, .font-weight-bold;
+  border-radius: 16px;
+  color: white !important;
+  // Button color changed by $primary in bootstrap.scss.
+}
+
+// Standard button, right justified.
+.hz-button-right {
+  @extend .hz-button, .float-right, .mt-3;
+}
+
+// Wide (length of enclosing content area) button.
+.hz-button-wide {
+  @extend .hz-button, .btn-block;
+}

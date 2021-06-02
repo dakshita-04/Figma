@@ -1,0 +1,178 @@
+//
+// Colors
+//
+// See: https://www.figma.com/file/g1DjC6OwfZ7OPPyzB1cXDx/GJN_Design-System?node-id=10%3A1569
+//
+
+//
+// Color Variables
+//
+
+// Primary
+$hz-primary-color: #0cace3;
+$hz-primary-variant-900-color: #00508b;
+$hz-primary-variant-600-color: #0092d1;
+$hz-primary-variant-400-color: #0cace3;
+$hz-primary-variant-200-color: #7aceed;
+$hz-primary-variant-100-color: #afe2f4;
+$hz-primary-variant-50-color: #dff4fb;
+
+// Background 1
+$hz-background-one-color: #fafafa;
+$hz-background-one-high-emphasize-color: $hz-primary-variant-900-color;
+$hz-background-one-medium-emphasize-color: #616161;
+$hz-background-one-disabled-color: rgba(0, 0, 0, 0.38);
+
+// Background 2
+$hz-background-two-color: #afe2f4;
+$hz-background-two-high-emphasize-color: $hz-primary-variant-900-color;
+$hz-background-two-medium-emphasize-color: $hz-primary-variant-400-color;
+$hz-background-two-disabled-color: $hz-primary-variant-200-color;
+
+// Surface
+$hz-surface-color: #ffffff;
+$hz-surface-high-emphasize-color: rgba(0, 0, 0, 0.87);
+$hz-surface-medium-emphasize-color: rgba(0, 0, 0, 0.6);
+$hz-surface-disabled-color: rgba(0, 0, 0, 0.38);
+$hz-surface-secondary-background-color: rgba(0, 0, 0, 0.08);
+
+// Outline
+$hz-outline-default-color: rgba(0, 0, 0, 0.12);
+$hz-outline-emphasis-color: rgba(0, 0, 0, 0.32);
+
+// Rating
+$hz-rating-green-color: #4caf50;
+$hz-rating-orange-color: #ffa726;
+$hz-rating-red-color: #b00020;
+
+$hz-rating-error-color: $hz-rating-red-color;
+
+//
+// Color Selectors
+//
+
+// Primary
+.hz-color-primary {
+  color: $hz-primary-color !important;
+}
+
+.hz-color-primary-variant-900 {
+  color: $hz-primary-variant-900-color !important;
+}
+
+.hz-color-primary-variant-600 {
+  color: $hz-primary-variant-600-color !important;
+}
+
+.hz-color-primary-variant-400 {
+  color: $hz-primary-variant-400-color !important;
+}
+
+.hz-color-primary-variant-200 {
+  color: $hz-primary-variant-200-color !important;
+}
+
+.hz-color-primary-variant-100 {
+  color: $hz-primary-variant-100-color !important;
+}
+
+.hz-color-primary-variant-50 {
+  color: $hz-primary-variant-100-color !important;
+}
+
+// Background 1
+.hz-color-background-one {
+  color: $hz-background-one-color !important;
+}
+
+.hz-color-background-one-high-emphasize {
+  color: $hz-background-one-high-emphasize-color !important;
+}
+
+.hz-color-background-one-medium-emphasize {
+  color: $hz-background-one-medium-emphasize-color !important;
+}
+
+.hz-color-background-one-disabled-color {
+  color: $hz-background-one-disabled-color !important;
+}
+
+// Background 2
+.hz-color-background-two {
+  color: $hz-background-two-color !important;
+}
+
+.hz-color-background-two-high-emphasize {
+  color: $hz-background-two-high-emphasize-color !important;
+}
+
+.hz-color-background-two-medium-emphasize {
+  color: $hz-background-two-medium-emphasize-color !important;
+}
+
+.hz-color-background-two-disabled-color {
+  color: $hz-background-two-disabled-color !important;
+}
+
+// Surface
+.hz-color-surface {
+  color: $hz-surface-color !important;
+}
+
+.hz-color-surface-high-emphasize {
+  color: $hz-surface-high-emphasize-color !important;
+}
+
+.hz-color-surface-medium-emphasize {
+  color: $hz-surface-medium-emphasize-color !important;
+}
+
+.hz-color-surface-disabled {
+  color: $hz-surface-disabled-color !important;
+}
+
+.hz-color-surface-secondary-background {
+  color: $hz-surface-secondary-background-color !important;
+}
+
+// Outline
+.hz-color-outline-default {
+  color: $hz-outline-default-color !important;
+}
+
+.hz-color-outline-emphasis {
+  color: $hz-outline-emphasis-color !important;
+}
+
+// Rating
+.hz-color-rating-green {
+  color: $hz-rating-green-color !important;
+}
+
+.hz-color-rating-orange {
+  color: $hz-rating-orange-color !important;
+}
+
+.hz-color-rating-red {
+  color: $hz-rating-red-color !important;
+}
+
+.hz-color-rating-error {
+  color: $hz-rating-error-color !important;
+}
+
+//
+// Status Selectors
+//
+
+.hz-success {
+  color: $hz-rating-green-color;
+}
+
+.hz-warning {
+  color: $hz-rating-orange-color;
+}
+
+.hz-error {
+  color: $hz-rating-red-color;
+}

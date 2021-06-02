@@ -1,0 +1,19 @@
+//
+// Fonts
+//
+// Via Fontsource: https://github.com/fontsource/fontsource
+// Add font-style/weights as needed based on Figma designs.
+//
+
+// Nunito
+@import "~@fontsource/nunito/400.css"; // normal
+@import "~@fontsource/nunito/400-italic.css"; // normal-italic
+@import "~@fontsource/nunito/700.css"; // bold
+@import "~@fontsource/nunito/800.css"; // extrabold
+
+// Ubuntu
+@import "~@fontsource/ubuntu/400.css"; // normal
+@import "~@fontsource/ubuntu/700.css"; // bold
+
+$hz-header-font: "Ubuntu";
+$hz-regular-font: "Nunito";

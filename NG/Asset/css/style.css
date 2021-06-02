@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+  
+body{
+  background-image: url(./../images/background_light_gray.svg);
+}
+
+section {
+  margin: 0, 0, 0, 0;
+  padding: 0, 0, 0, 0;
+}
+
+.color-white {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.header-top {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-items {
+  position: static;
+  width: 79px;
+  height: 22px;
+  left: 264px;
+  top: 11px;
+
+  /* Body 1 Bold */
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  /* Primary */
+
+  color: #0cace3;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.btn-navbar {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.DB-heading {
+  /* Headline 2 */
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 39px;
+  /* identical to box height */
+  display: block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  color: #00508b;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.search-input{
+  /* Rectangle 202 */
+
+position: relative;
+width :320px;
+left: 0px;
+top: 0px;
+margin-left: 15%  ;
+/* Surface */
+background: #FFFFFF;
+border-radius: 22.5px;
+/* Vector */
+
+}

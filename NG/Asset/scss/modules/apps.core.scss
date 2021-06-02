@@ -1,0 +1,61 @@
+//
+// Core
+//
+// Used by apps.core *templates*.
+// More utility like selectors are in their own SCSS files (e.g., text.scss).
+//
+
+body {
+  @extend .hz-body-one;
+  background-color: #f9f9f9;
+  background-image: url("images/background_light_gray.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//
+// Header
+//
+#hz-header-nav {
+  &-subtitle {
+    background-image: url("images/header_post_a_job.svg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 4em !important;
+  }
+
+  &-subtitle-text {
+    @extend .hz-headline-three;
+    color: white !important;
+  }
+}
+
+.hz-header-nav {
+  @at-root a#{&}-link {
+    @extend .text-uppercase;
+    color: $hz-primary-color !important;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  @at-root a#{&}-button {
+    @extend .hz-button;
+    color: white !important;
+  }
+}
+
+//
+// Main
+//
+#hz-main {
+  min-height: 100vh;
+}
+
+//
+// Footer
+//
+.hz-footer-copyright {
+  @extend .hz-body-one;
+  color: $hz-primary-color !important;
+}

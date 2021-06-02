@@ -1,0 +1,22 @@
+//
+// Jobs
+//
+// Used by apps.jobs
+//
+
+.hz-jobs {
+  &-stage-current {
+    @extend .hz-body-one-bold;
+  }
+
+  &-stage-not-current {
+    @extend .hz-body-one, .hz-color-surface-disabled;
+  }
+}
+
+#hz-jobs-stage {
+  background-image: url("images/background_light_blue.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}

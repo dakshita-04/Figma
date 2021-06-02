@@ -1,0 +1,98 @@
+//
+// Accounts
+//
+// Used by apps.accounts
+//
+
+.hz-accounts {
+  &-signup {
+    &-background {
+      @extend body;
+      background-image: url("images/background_light_blue_signup.svg"), url("images/background_light_gray.svg");
+    }
+
+    @at-root ul#{&}-list {
+      @extend .hz-body-one;
+      & > li {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  &-container {
+    @extend .container-xl;
+    max-width: 1500px !important;
+  }
+
+  &-card {
+    @extend .card, .w-75, .mx-auto, .bg-white, .shadow, .pb-2;
+    border-radius: 15px;
+    max-width: 600px;
+
+    // Position ninja star over panel.
+    // https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html
+    &-header {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    @at-root img#{&}-header-panel {
+      @extend .card-img-top, .p-0;
+      border-radius: 15px 15px 0px 0px;
+      z-index: 1;
+
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    @at-root img#{&}-header-ninja-star {
+      @extend .card-img-top, .p-0;
+      // transform: translateY(-100px);
+      z-index: 2;
+
+      position: absolute;
+      top: -20px;
+      left: 0px;
+    }
+
+    // TODO - refactor &-* and &-*-signup with mixins.
+
+    &-title {
+      @extend .card-title, .text-center, .hz-headline-three;
+      color: $hz-primary-variant-900-color;
+      // margin-top: 0em !important;
+      margin-bottom: 1em;
+    }
+
+    &-title-signup {
+      @extend .card-title, .text-center, .hz-headline-three;
+      color: $hz-primary-variant-900-color;
+      margin-bottom: 8px;
+    }
+
+    &-body {
+      @extend .card-body, .hz-body-one;
+      padding-top: 0px !important;
+    }
+
+    &-body-signup {
+      @extend .card-body, .hz-body-one;
+    }
+
+    &-signup {
+      & > p {
+        @extend .text-center;
+        margin-bottom: 0em !important;
+      }
+    }
+
+    @at-root a#{&}-back {
+      @extend .hz-button;
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-style: hidden;
+      color: $hz-surface-medium-emphasize-color !important;
+    }
+  }
+}
